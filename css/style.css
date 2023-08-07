@@ -1,0 +1,310 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  /* background-color: rebeccapurple; */
+}
+
+.header-paragraph,
+.track-paragraph,
+.box-paragraph,
+.access-paragraph,
+.supercharge-paragraph,
+.clipboard-paragraph,
+.footer-box a {
+  color: hsl(201, 11%, 66%);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 12rem;
+}
+
+.header-image {
+  /* position: top; */
+  width: 100%;
+  height: 9rem;
+}
+
+.header-image img {
+  width: inherit;
+}
+
+.header-logo {
+  width: 7rem;
+  margin-bottom: 3rem;
+}
+
+.header-text {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.header-paragraph {
+  font-size: 2rem;
+  padding-left: 35rem;
+  padding-right: 35rem;
+}
+
+.header-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.green-link,
+.blue-link {
+  font-size: 2rem;
+  color: #fff;
+  padding: 1.2rem 3rem;
+  border-radius: 2rem;
+}
+
+.green-link {
+  background-color: hsl(171, 66%, 44%);
+  transition: all 0.3s;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.065);
+}
+
+.green-link:hover {
+  background-color: hsla(171, 66%, 44%, 0.733);
+}
+
+.blue-link {
+  background-color: hsl(233, 100%, 69%);
+  transition: all 0.3s;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.065);
+}
+
+.blue-link:hover {
+  background-color: hsla(233, 100%, 69%, 0.733);
+}
+
+.header-links a:link,
+.header-links a:visited {
+  text-decoration: none;
+}
+
+/* the track section */
+.track {
+  margin-bottom: 12rem;
+}
+
+.track-box {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.track-head,
+.track-paragraph {
+  text-align: center;
+}
+
+.track-head {
+  font-size: 3rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 3rem;
+}
+
+.track-paragraph {
+  font-size: 2rem;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  margin-bottom: 3rem;
+}
+
+.track-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.track-grid img {
+  width: 100%;
+}
+
+.track-grid-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.box-header {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.box-paragraph {
+  font-size: 2rem;
+}
+
+/* the access clipboard section */
+.access {
+  text-align: center;
+  margin-bottom: 12rem;
+}
+
+.access-head {
+  font-size: 3rem;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 3rem;
+}
+
+.access-paragraph {
+  font-size: 2rem;
+  padding-left: 30rem;
+  padding-right: 30rem;
+}
+
+.access-content {
+  margin-bottom: 3rem;
+}
+
+/* the supercharge section */
+.supercharge {
+  width: 110rem;
+  margin: 0 auto;
+  margin-bottom: 12rem;
+}
+
+.supercharge-paragraph {
+  margin-bottom: 6rem;
+  font-size: 2rem;
+  padding-left: 30rem;
+  padding-right: 30rem;
+}
+
+.supercharge-header {
+  font-weight: 600;
+  font-size: 3rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 3rem;
+}
+
+.supercharge-header,
+.supercharge-paragraph {
+  text-align: center;
+}
+
+.supercharge-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.supercharge-box img {
+  margin-bottom: 3rem;
+}
+
+.box-header {
+  margin-bottom: 2rem;
+}
+
+/* the section features in */
+.features-in {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 2rem;
+}
+
+/* the clipboard section */
+.clipboard {
+  text-align: center;
+  margin-bottom: 12rem;
+}
+
+.clipboard-head {
+  font-weight: 600;
+  font-size: 3rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 3rem;
+}
+
+.clipboard-paragraph {
+  font-size: 2rem;
+  padding-left: 30rem;
+  padding-right: 30rem;
+}
+
+.clipboard-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.clipboard-links a:link,
+.clipboard-links:visited {
+  text-decoration: none;
+}
+
+/* the footer section */
+
+footer {
+  background-color: hsla(202, 11%, 66%, 0.178);
+}
+
+.footer {
+  /* width: 110rem; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.footer-img {
+  width: 4rem;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-box a:link,
+.footer-box a:visited {
+  font-size: 2rem;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footer-box a:hover,
+.footer-box:active {
+  color: hsl(171, 66%, 44%);
+}
+
+.double-grid {
+  grid-column: 4/6;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+  align-self: center;
+}

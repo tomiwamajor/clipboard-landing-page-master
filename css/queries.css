@@ -17,8 +17,8 @@
   }
 
   .track-box {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 
   .track-grid {
@@ -37,7 +37,7 @@
   }
 
   .access-img {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
   }
 
